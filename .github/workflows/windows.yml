@@ -24,7 +24,7 @@ jobs:
       - name: Archive artifacts
         run: |
           copy .\target\x86_64-pc-windows-msvc\release\region.exe .\
-          tar -czvf lotus-bridge.tar.gz  conf sqlite.db region.exe
+          tar -czvf lotus-bridge.tar.gz  region.sqlite region.exe
         if: success()
 
       - name: Upload artifacts
