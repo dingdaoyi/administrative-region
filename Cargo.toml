@@ -16,5 +16,5 @@ serde_json = { version = "1" }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 async-trait = "0.1"
 async-recursion="1.1"
-termion="4.0"
+crossterm="0.27"
 structopt="0.3"

@@ -7,6 +7,6 @@ pub struct Cli {
     pub province: Option<String>,
     #[structopt(help = "指定行政区划code导入", short = "C" ,long = "code" )]
     pub code: Option<String>,
-    #[structopt(help = "选择省导入", short = "S" ,long = "select" )]
-    pub select: bool,
+    #[structopt(help = "列出所有省份", short = "L" ,long = "list" )]
+    pub list: bool,
 }
